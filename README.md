@@ -59,18 +59,3 @@ python src/ml_models.py
 # Launch dashboard
 streamlit run src/dashboard.py
 
-# File Structure
-icu-forecasting/
-├── src/
-│   ├── data_loader.py         # Process MIMIC-IV data
-│   ├── kafka_producer.py      # Stream data to Kafka
-│   ├── kafka_to_hadoop.py     # Store streamed data
-│   ├── spark_processor.py     # Spark processing
-│   ├── ml_models.py           # Train forecasting models
-│   └── dashboard.py           # Streamlit dashboard
-├── data/
-│   └── mimic-iv/              # MIMIC dataset (add yourself)
-├── docker-compose.yml         # Docker services config
-├── requirements.txt           # Python dependencies
-├── README.md                  # This file
-└── .gitignore                # Git ignore rules
