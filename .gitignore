@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+data/hadoop_output/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files
+*.pkl
+*.zip
+*.tar
+*.gz
+
+# Model binaries
+*.h5
+*.joblib
+*.pkl
+*.dll
+*.jar
+*.png
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
